@@ -1,0 +1,24 @@
+sudo apt-get install cmake
+
+Cmake es un software multiplataforma para asistir el proceso para generar un proyecto
+
+Paso uno: Generación del proyecto (Solo es necesario una vez).
+El mínimo de archivos necesario para compilar un código con Cmake son dos. Un archivo *.cpp
+(que trae el código), Fig. 1, y un archivo llamado CmakeLists.txt (que trae la configuración de para
+la compilación)
+
+|-----------------------------------------------------------|
+|******************* Comandos para CMake *******************|
+|-----------------------------------------------------------|
+
+1) version minima de Cmake
+2) nombre del proyecto
+3) instrucciones :
+    3.1 add_executable: "exe_name" "ficheros a compilar"
+4) crear un directorio para los archivos compilados (build folder) donde se guardaran los archivos ".obj"
+5) ejecutar el comando: cmake "ruta_del_folder_contenedor_del_CMakeLists.txt"
+6) desde el build folder compilar con el comando: make
+
+
+
+
